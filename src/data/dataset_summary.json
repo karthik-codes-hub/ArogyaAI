@@ -1,0 +1,124 @@
+{
+  "total_records": 10000,
+  "features_count": 25,
+  "class_distribution": {
+    "Low": 7080,
+    "Moderate": 2390,
+    "High": 530
+  },
+  "class_percentages": {
+    "Low": 70.8,
+    "Moderate": 23.9,
+    "High": 5.3
+  },
+  "averages_by_risk": {
+    "Low": {
+      "Age": 42.4,
+      "BMI": 24.2,
+      "Systolic_BP": 118.2,
+      "Diastolic_BP": 73.1,
+      "Blood_Glucose": 92.4,
+      "Cholesterol": 181.6,
+      "Heart_Rate": 72.8,
+      "Physical_Activity_Days": 4.1
+    },
+    "Moderate": {
+      "Age": 58.7,
+      "BMI": 28.6,
+      "Systolic_BP": 139.4,
+      "Diastolic_BP": 84.7,
+      "Blood_Glucose": 124.8,
+      "Cholesterol": 218.4,
+      "Heart_Rate": 76.5,
+      "Physical_Activity_Days": 2.2
+    },
+    "High": {
+      "Age": 68.2,
+      "BMI": 33.4,
+      "Systolic_BP": 162.8,
+      "Diastolic_BP": 94.2,
+      "Blood_Glucose": 158.6,
+      "Cholesterol": 254.2,
+      "Heart_Rate": 82.4,
+      "Physical_Activity_Days": 1.1
+    }
+  },
+  "age_groups_risk": [
+    {
+      "group": "18-35",
+      "Low": 86.4,
+      "Moderate": 11.8,
+      "High": 1.8
+    },
+    {
+      "group": "36-50",
+      "Low": 76.2,
+      "Moderate": 19.5,
+      "High": 4.3
+    },
+    {
+      "group": "51-65",
+      "Low": 64.1,
+      "Moderate": 28.9,
+      "High": 7.0
+    },
+    {
+      "group": "66-80",
+      "Low": 53.5,
+      "Moderate": 36.8,
+      "High": 9.7
+    }
+  ],
+  "correlations": [
+    {
+      "feature1": "Systolic_BP",
+      "feature2": "Diastolic_BP",
+      "corr": 0.68
+    },
+    {
+      "feature1": "BMI",
+      "feature2": "Systolic_BP",
+      "corr": 0.44
+    },
+    {
+      "feature1": "Age",
+      "feature2": "Systolic_BP",
+      "corr": 0.51
+    },
+    {
+      "feature1": "Age",
+      "feature2": "Blood_Glucose",
+      "corr": 0.38
+    },
+    {
+      "feature1": "BMI",
+      "feature2": "Blood_Glucose",
+      "corr": 0.36
+    },
+    {
+      "feature1": "Diabetes",
+      "feature2": "Blood_Glucose",
+      "corr": 0.52
+    },
+    {
+      "feature1": "Hypertension",
+      "feature2": "Systolic_BP",
+      "corr": 0.62
+    },
+    {
+      "feature1": "Physical_Activity",
+      "feature2": "Heart_Rate",
+      "corr": -0.32
+    },
+    {
+      "feature1": "Heart_Disease",
+      "feature2": "Age",
+      "corr": 0.46
+    },
+    {
+      "feature1": "Cholesterol",
+      "feature2": "High_Cholesterol",
+      "corr": 0.58
+    }
+  ]
+}

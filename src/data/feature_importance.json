@@ -1,0 +1,92 @@
+[
+  {
+    "feature": "Systolic_BP",
+    "importance": 0.182,
+    "category": "Vitals",
+    "description": "Blood pressure peak force (AHA stage 2 / crisis risk)"
+  },
+  {
+    "feature": "Age",
+    "importance": 0.145,
+    "category": "Demographics",
+    "description": "Biological aging and cardiovascular risk accumulation"
+  },
+  {
+    "feature": "Heart_Disease",
+    "importance": 0.118,
+    "category": "Medical History",
+    "description": "Established coronary or cardiovascular disease"
+  },
+  {
+    "feature": "Blood_Glucose",
+    "importance": 0.098,
+    "category": "Vitals",
+    "description": "Fasting glycemia and metabolic dysregulation"
+  },
+  {
+    "feature": "BMI",
+    "importance": 0.084,
+    "category": "Vitals",
+    "description": "Body Mass Index (Overweight / Class I-III Obesity)"
+  },
+  {
+    "feature": "Diabetes",
+    "importance": 0.076,
+    "category": "Medical History",
+    "description": "Diagnosed Type 1 or Type 2 diabetes mellitus"
+  },
+  {
+    "feature": "Hypertension",
+    "importance": 0.065,
+    "category": "Medical History",
+    "description": "Chronic arterial hypertension diagnosis"
+  },
+  {
+    "feature": "Stroke_History",
+    "importance": 0.054,
+    "category": "Medical History",
+    "description": "Previous ischemic or hemorrhagic cerebrovascular event"
+  },
+  {
+    "feature": "Kidney_Disease",
+    "importance": 0.048,
+    "category": "Medical History",
+    "description": "Chronic kidney disease or nephropathy"
+  },
+  {
+    "feature": "High_Cholesterol",
+    "importance": 0.038,
+    "category": "Medical History",
+    "description": "Hyperlipidemia / elevated LDL"
+  },
+  {
+    "feature": "Smoking_Current",
+    "importance": 0.032,
+    "category": "Lifestyle",
+    "description": "Active tobacco smoking"
+  },
+  {
+    "feature": "Lifestyle_Score",
+    "importance": 0.024,
+    "category": "Engineered",
+    "description": "Composite score of exercise, diet, sleep, and habits"
+  },
+  {
+    "feature": "Metabolic_Risk_Count",
+    "importance": 0.016,
+    "category": "Engineered",
+    "description": "Comorbidity count of metabolic syndrome conditions"
+  },
+  {
+    "feature": "Physical_Activity_Days",
+    "importance": 0.011,
+    "category": "Lifestyle",
+    "description": "Weekly frequency of moderate-to-vigorous exercise"
+  },
+  {
+    "feature": "Cholesterol",
+    "importance": 0.009,
+    "category": "Vitals",
+    "description": "Total serum cholesterol level"
+  }
+]

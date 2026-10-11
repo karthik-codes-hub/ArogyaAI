@@ -1,0 +1,6 @@
+{
+  "name": "AI-Powered Early Healthcare Risk Prediction System",
+  "description": "Production-grade healthcare risk prediction system featuring explainable ML (SHAP), clinical guardrails, what-if simulator, health trends analytics, and patient PDF reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
